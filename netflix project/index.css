@@ -7,12 +7,15 @@ body{
     background-color: black;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+html::-webkit-scrollbar, body::-webkit-scrollbar {
+    display: none;  
+}
 .rowposterlarge{
-    
     width: 100%;
     object-fit: contain;
     max-height: 100px;
-    margin-right: 10px;
+    margin-right: 10px;    
     transition: tranform 450ms;
 }
 .rowposter{
@@ -20,7 +23,7 @@ body{
     overflow-y: hidden;
     overflow-x: scroll;
     padding: 10px;
-  ju
+   margin-bottom: 10px;
 }
 .rowposterlarge:hover{
     transform: scale(1.08);
